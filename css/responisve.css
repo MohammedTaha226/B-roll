@@ -1,0 +1,377 @@
+/*Big Size Screens*/
+@media (max-width: 1200px)
+{
+	.news .owl-controls .owl-buttons div,
+	.business .owl-controls .owl-buttons div
+	{
+		right:0
+	}
+	
+	.news .owl-controls .owl-buttons div.owl-prev,
+	.business .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+	.business .btnsTabs li
+	{
+		margin:- 5px;
+		font-size:15px
+	}
+	
+	.contactModal .info .details
+	{
+		width:86%
+	}
+}
+
+
+/*Big Size Screens*/
+@media (min-width:991px) and (max-width: 1200px)
+{
+	
+	.header .logo
+	{
+		max-width:240px;
+		margin-top:50px
+	}
+	
+	.header .navBar li
+	{
+		padding:0 15px
+	}
+	
+	.header .lang
+	{
+		margin-right:20px
+	}
+
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+
+	.header
+	{
+		padding:5px 0 11px
+	}
+	
+	
+	.header.HeaderFixed .logo
+	{
+		margin-top:11px;
+	}
+	
+	.header .logo
+	{
+		float:right;
+		margin-top:10px;
+		margin-bottom:5px;
+		max-width:250px;
+	}
+	
+	
+	.header .open-menu,
+	.header.HeaderFixed .lang
+	{
+		display:block;
+		margin-top: 17px;
+	}
+	
+	.header .navBar
+	{
+		display:none;
+	}
+	
+	.header .lang
+	{
+		margin-top:17px;
+		margin-right:20px
+	}
+	
+	.business .btnsTabs li
+	{
+		float:none;
+		display:inline-block;
+		margin-bottom:10px
+	}
+	
+	.modal-dialog
+	{
+		width:767px!important
+	}
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+
+	.sliderDetails
+	{
+		padding-top:200px
+	}
+	
+	.slider img
+	{
+		height:500px
+	}
+	
+	.sliderDetails .title
+	{
+		font-size:27px;
+	}
+	
+	.sliderDetails .desc
+	{
+		font-size:20px
+	}
+	
+	.aboutUs .bgAbout
+	{
+		padding-left:20px;
+		padding-right:20px
+	}
+	
+	.modal-dialog
+	{
+		width:auto!important
+	}
+	
+	.AboutModal .itemAbout .details
+	{
+		width:79%
+	}
+	
+	.OrderModal .formContact
+	{
+		margin:0
+	}
+	
+	.contactModal .info .details
+	{
+		width:93%
+	}
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+
+	.header .logo
+	{
+		max-width:120px;
+		margin-top:15px;
+	}
+	
+	
+	
+	.header.HeaderFixed .logo
+	{
+		max-width:120px;
+	    margin-top: 15px;
+	}
+	
+	.header.HeaderFixed .open-menu, 
+	.header.HeaderFixed .lang
+	{
+		margin-top:11px
+	}
+	
+	.header .open-menu,
+	.header .lang
+	{
+		margin-top:11px
+	}
+	.header .lang
+	{
+		margin-right:10px;
+		padding:0 10px
+	}
+	.sliderDetails
+	{
+		padding:140px 10px 0
+	}
+	
+	.bx-wrapper .bx-pager
+	{
+		display:none;
+	}
+	
+	.Reservation
+	{
+		padding:70px 0
+	}
+	
+	.Reservation h2
+	{
+		font-size:20px
+	}
+	.Reservation a
+	{
+		height:50px;
+		line-height:45px
+	}
+	
+	.footer .socialFooter li:not(:last-of-type)
+	{
+		margin-right:10px
+	}
+
+	.footer .socialFooter li a
+	{
+		width:35px;
+		height:35px;
+		line-height:35px;
+		font-size:15px;
+	}
+
+	.footer .desc
+	{
+		font-size:16px;
+	}
+	.footer .linksFooter
+	{
+		margin-bottom:20px
+	}
+	.footer .linksFooter li
+	{
+		float:none;
+		display:inline-block;
+		margin-bottom:10px
+	}
+
+	.footer .linksFooter li:not(:last-of-type):after
+	{
+		padding:0 5px
+	}
+	
+	.AboutModal .itemAbout
+	{
+		text-align:center
+	}
+	
+	.AboutModal .itemAbout i
+	{
+		float:none
+	}
+
+	.AboutModal .itemAbout .details
+	{
+		width:100%;
+		padding-right:0;
+		float:none;
+	}
+
+	.AboutModal .modal-body
+	{
+		padding-left:20px;
+		padding-right:20px
+	}
+	
+	.AboutModal .itemAbout .details .title:before
+	{
+		right:calc(50% - 22.5px)
+	}
+	
+	.contactModal .formContact,
+	.contactModal .modal-body
+	{
+		padding-left:20px;
+		padding-right:20px
+	}
+	
+	.contactModal .info
+	{
+		text-align:center
+	}
+	
+	.contactModal .info i
+	{
+		float:none;
+		margin-bottom:15px
+	}
+	
+	.contactModal .info .details
+	{
+		width:100%;
+		float:none;
+	}
+	
+	.contactModal .info .details
+	{
+		text-align:center
+	}
+		
+	.contactModal .formContact .title
+	{
+		font-size:15px
+	}
+	
+	.contactModal .formContact .title
+	{
+		margin-bottom:20px
+	}
+	.contactModal .formContact input, .contactModal .formContact textarea
+	{
+		margin-bottom:20px
+	}
+	
+	.OrderModal .OwlOrder,
+	.OrderModal .item
+	{
+		padding:0
+	}
+	.formContact .select-durtion ul
+	{
+		width:100%;
+		padding-right:35px
+	}
+
+	.labelCheck i
+	{
+		right:-28px
+	}
+	
+	
+	.NewsModal .detailsPost .date,
+	.NewsModal .detailsPost .share
+	{
+		float:none;
+		display:inline-block
+	}
+	
+	.NewsModal .detailsPost .date
+	{
+		margin-bottom:15px
+	}
+	
+	.NewsModal .detailsPost .share i
+	{
+		float:right;
+		margin-left:10px;
+		margin-right:0
+	}
+	.NewsModal .detailsPost
+	{
+		margin-top:30px
+	}
+	
+	
+	
+	
+	
+}
